@@ -1,0 +1,41 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta name="author" content="{{ site.author }}">
+<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome CSS -->
+<link href="css/lib/font-awesome.css" rel="stylesheet">
+<!-- Zocial CSS -->
+<link href="css/lib/zocial.css" rel="stylesheet">
+<!-- VENOBOx CSS -->
+<link rel="stylesheet" href="css/lib/venobox.css" type="text/css" />
+<!-- EXPANDING THUMBNAIL CSS -->
+<link rel="stylesheet" href="css/lib/og-component.css" type="text/css" />
+<!-- ANIMATED CSS -->
+<link href="css/lib/animate.css" rel="stylesheet">
+<!-- STYLE CSS -->
+
+<!-- build:css({app,.tmp}) css/style.css -->
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style-light.css">
+<link rel="stylesheet" href="css/scheme/light-blue.css">
+<!-- endbuild -->
+
+
+<!-- MODERNIZER JS -->
+<script src="js/lib/modernizr.custom.js"></script>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
+
+

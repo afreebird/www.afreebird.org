@@ -1,0 +1,66 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+.navbar .navbar-brand {
+  background: #F565AB;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #4cddf3;
+}
+.dropdown-menu {
+  background-color: #4cddf3;
+}
+a {
+  color: #4cddf3;
+}
+.main-color {
+  color: #4cddf3;
+}
+.slides-navigation a:hover {
+  background: #4cddf3;
+}
+.slides-pagination a.current {
+  background: #4cddf3;
+}
+.header-center a:hover {
+  color: #4cddf3;
+}
+.totop:hover span > a.hover {
+  color: #4cddf3;
+}
+.left-icon .icon {
+  background: #4cddf3;
+}
+.styled div span {
+  background: #4cddf3;
+}
+footer.footer {
+  background: #4cddf3;
+}
+.post .post-meta .post-icon:hover {
+  background: #4cddf3;
+}
+.post .post-meta span a {
+  color: #4cddf3;
+}
+.post .read-more {
+  border: 1px solid #4cddf3;
+}
+.mejs-controls .mejs-time-rail .mejs-time-current {
+  background-color: #4cddf3;
+}
+.mejs-horizontal-volume-current {
+  background: #4cddf3;
+}
+.skill-bar ul li .bar {
+  background: #4cddf3;
+}
+.pagination .pag-prev a,
+.pagination .pag-next a {
+  background: #4cddf3;
+  border-color: #4cddf3;
+}
+.testimonial-list .testimonial-item a.current ~ .testi-link,
+.testimonial-list .testimonial-item a:hover ~ .testi-link {
+  background: rgba(76, 221, 243, 0.8);
+}

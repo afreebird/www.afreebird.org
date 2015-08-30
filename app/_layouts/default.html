@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <!-- BEGIN OUTTER -->
+    <div class="outter">
+      {% include navbar.html %}
+      {% include slides.html %}
+
+      <!-- BEGIN CONTENT SECTION -->
+      <div class="section-outter">
+        {{ content }}
+        {% include footer.html %}
+      </div>
+      <!-- END CONTENT SECTION -->
+    </div>
+    <!-- END OUTTER -->
+
+    {% include scripts.html %}
+  </body>
+</html>
