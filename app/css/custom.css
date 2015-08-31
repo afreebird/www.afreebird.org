@@ -1,0 +1,17 @@
+/*
+.navbar .navbar-brand {
+  background: #ab4cf3;
+}
+*/
+
+.navbar-nav > li > a {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a.donate {
+  color: #4cddf3;
+}
+
+.section-title .title, .btn-outline {
+  text-transform: uppercase;
+}
