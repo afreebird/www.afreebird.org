@@ -42,10 +42,6 @@ Builds an optimized site to the dist directory. [Usemin blocks](https://github.c
 
 To include components in the build, place them inside of a Usemin block or add them to the `copy:dist` task. This workflow will be streamlined with the release of Usemin 2.0.
 
-## Links
-
 [afreebird]: http://www.afreebird.org
 [license]: http://www.gnu.org/licenses/agpl-3.0.html
 [pixelmixer]: http://pixel-mixer.com/
-
-Thanks to the many Ruby projects we're using and the [PixelMixer][pixelmixer] icon collection.
