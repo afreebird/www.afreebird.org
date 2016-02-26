@@ -256,8 +256,12 @@ module.exports = function (grunt) {
             // Jekyll processes and moves HTML and text files.
             // Usemin moves CSS and javascript inside of Usemin blocks.
             // Copy moves asset files and directories.
+            'css/lib/**/*',
+            'css/scheme/**/*',
             'images/**/*',
             'fonts/**/*',
+            'js/lib/**/*',
+            'video/**/*',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
             '!**/_*{,/**}'
             // Explicitly add any files your site needs for distribution here.
@@ -390,9 +394,9 @@ module.exports = function (grunt) {
     'concat',
     'cssmin',
     'uglify',
-    'imagemin',
-    'svgmin',
-    'filerev',
+    // 'imagemin',
+    // 'svgmin',
+    // 'filerev',
     'usemin',
     'htmlmin'
     ]);
