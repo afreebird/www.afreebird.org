@@ -1,4 +1,4 @@
-# A Free Bird
+# A Free Bird™
 ## Main Website
 
 [A Free Bird™][afreebird] main website built on Jekyllrb Generator with a focus on collaboration.
